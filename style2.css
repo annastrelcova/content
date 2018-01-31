@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(23, 131, 255);
     font-size: 100px;
@@ -13,7 +13,8 @@ h1{
     background-color: rgb(228, 228, 228);
     padding: 10%;
 }
-h2{
+
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 300%;
     color: rgb(70, 68, 68);
@@ -21,21 +22,21 @@ h2{
     padding-top: 5%;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     color: rgb(75, 75, 75);
     text-align: center;
     padding: 3% 20%;
-    line-height: 150%;   
+    line-height: 150%;
 }
 
-a{
+a {
     color: rgb(211, 57, 159);
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
     color: rgb(28, 125, 253);
 }
@@ -43,8 +44,32 @@ a:hover{
 mark {
     background: #ffec82;
     padding: 0 3px;
-   }
+}
 
+code {
+    margin: 3% auto;
+    padding: 0 20%;
+}
 
+ul {
+    margin: 3% auto;
+    padding: 0 20%;
+}
 
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(75, 75, 75);
+    margin: 3% 20%;
+    line-height: 150%;
+}
 
+blockquote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(145, 145, 145);
+    margin: 3% 20%;
+    line-height: 150%;
+    text-align: center;
+    width: 100;
+}
